@@ -566,7 +566,7 @@ text-align: center;
     gap: 0px;
     border-radius: 10px;
     opacity: 0px;
-    padding: 10px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
     margin: 40px;
 }
 
@@ -584,7 +584,144 @@ text-align: center;
     margin-top: 50px;
 }
 
+.wahidari-p {
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
+.wahid-position {
+    display: flex;
+    flex-direction: row;
+}
+
+.wahid-image {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.section-8-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-rectangle {
+    width: 968px;
+    height: 345px;
+    top: 6024px;
+    left: 223px;
+    border-radius: 32px;
+    background: rgba(2, 137, 122, 1);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rectangle-p {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48.45px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container-p-button { 
+    width: 510px;
+    height: 92px;
+    margin-top: 20px;
+    margin-left: 51px;
+}
+
+.last-button {
+    width: 150px;
+    height: 50px;
+    top: 245px;
+    left: 51px;
+    padding: 13px 35px 7px 33px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.section-9-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logos-and-p {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-logos {
+    
+}
+
+.section-with-links {
+    display: flex;
+    
+    margin-left: 161px;
+    margin-top: 120px;
+    
+}
+
+.resources {
+    
+}
+
+.legal-stuff {
+    margin-left: 130px;
+    width: 150px;
+    height: 140px;
+    top: 38px;
+}
+
+.knowing-last-p {
+    margin-left: 80px;
+    width: 280px;
+    height: 57px;
+}
+
+.knowing-last-p p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.knowing-last-p input {
+    border: 1px solid rgba(188, 208, 229, 1);
+    background-color: rgb(255, 255, 255);
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.knowing-last-p button {
+    width: 131px;
+    height: 39px;
+    background: rgba(2, 137, 122, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 21px;
+}
+
+.last-p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(34, 52, 61, 1);
+
+}
 
 @media screen and (max-width: 950px) {
     .menu-icon {
@@ -690,6 +827,55 @@ text-align: center;
         width: 323px;
         height: 112px;
     }
+
+    .section-9-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-with-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .legal-stuff {
+        margin-right: 300px;
+    }
+        
+        .resources {
+            align-items: center;
+            margin-top: -110px;
+            margin-left: 135px;
+        }
+    
+        .knowing-last-p {
+            margin-top: 100px;
+            margin-left: 125px;
+        }
+    
+        .last-p {
+            margin-top: 100px;
+        }
+
+        .green-rectangle {
+            display: flex;
+            flex-direction: column;
+            width: 390px;
+            height: 688px;
+        }
+    
+        .container-p-button {
+            width: 328px;
+            height: 144px;
+        }
+        
+        .last-image-media {
+            margin-top: 170px;
+        }
+    
+        .last-button {
+            margin-left: 80px;
+        }
 }
 
 @media screen and (max-width: 600px) {
@@ -719,5 +905,54 @@ text-align: center;
 
     .section-non-reverse {
         flex-direction: column;
+    }
+
+    .section-9-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-with-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legal-stuff {
+    margin-right: 300px;
+}
+    
+    .resources {
+        align-items: center;
+        margin-top: -110px;
+        margin-left: 135px;
+    }
+
+    .knowing-last-p {
+        margin-top: 100px;
+        margin-left: 125px;
+    }
+
+    .last-p {
+        margin-top: 100px;
+    }
+
+    .green-rectangle {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+        height: 688px;
+    }
+
+    .container-p-button {
+        width: 328px;
+        height: 144px;
+    }
+    
+    .last-image-media {
+        margin-top: 170px;
+    }
+
+    .last-button {
+        margin-left: 80px;
     }
 }
